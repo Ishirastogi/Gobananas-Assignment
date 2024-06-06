@@ -86,8 +86,8 @@ const PostList = () => {
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           InputProps={{
-            startAdornment: (
-              <InputAdornment position="start">
+            endAdornment: (
+              <InputAdornment position="end">
                 <SearchIcon />
               </InputAdornment>
             ),
